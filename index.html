@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Dashboard template · Page name</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg border-bottom shadow-sm">
+        <div class="container-fluid">
+
+            <i class="bi bi-list fs-1 menu-btn border border-0 text-white py-0 d-flex justify-content-start"
+                data-bs-toggle="offcanvas" data-bs-target="#offcanvasSideBar" aria-controls="offcanvasSideBar"></i>
+
+            <!-- <a class="navbar-brand py-0 text-white" href="index.html">Dashboard</a> -->
+
+            <div class="header-btns d-flex justify-content-end">
+                <div class="notification me-4">
+                    <i class="bi bi-bell-fill fs-5"></i>
+                    <span class="notification-badge p-1 bg-danger border border-light rounded-circle">
+                    </span>
+                </div>
+                <div class="me-2 fs-5">
+                    <i class="bi bi-person-circle"></i>
+                    <span>admin</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- sidebar -->
+    <div class="offcanvas offcanvas-start sidebar-nav " tabindex="-1" id="offcanvasSideBar"
+        aria-labelledby="offcanvasLabel">
+
+        <div class="d-block position-relative sidebar-header text-white shadow">
+            <div class="ms-4 fs-4 position-absolute top-50 start-0 translate-middle-y" id="offcanvasLabel">
+                <span>Dashboard</span>
+            </div>
+        </div>
+
+        <div class="p-3">
+
+            <nav class="mt-4">
+                <div class="vstack gap-2">
+                    <a href="#" class="sidebar-link ms-2">
+                        <div class="p-2 sidebar-item rounded-3 active">
+                            <i class="bi bi-link-45deg"></i>
+                            <span>Active link</span>
+                        </div>
+                    </a>
+                    <a href="#" class="sidebar-link ms-2">
+                        <div class="p-2 sidebar-item rounded-3">
+                            <i class="bi bi-link-45deg"></i>
+                            <span>Link 2</span>
+                        </div>
+                    </a>
+                    <a href="#" class="sidebar-link ms-2">
+                        <div class="p-2 sidebar-item rounded-3 position-relative">
+                            <i class="bi bi-link-45deg"></i>
+                            <span>Link 3</span>
+                            <span class="position-absolute top-50 end-0 translate-middle-y badge rounded-pill bg-primary me-2">99+</span>
+                        </div>
+                    </a>
+                    <a href="#" class="sidebar-link ms-2">
+                        <div class="p-2 sidebar-item rounded-3">
+                            <i class="bi bi-link-45deg"></i>
+                            <span>Link 4</span>
+                        </div>
+                    </a>
+                </div>
+            </nav>
+
+            <div class="fixed-bottom d-flex flex-column sidebar-btm p-4 fs-6">
+                <div class="mb-4 flex-column sidebar-btm-info">
+                    <div>
+                        <a href="https://github.com/chrnvm/dashboard-template"
+                            class="link-secondary link-offset-2">dashboard-template</a>
+                        <span>v. 1.0</span>
+                    </div>
+                    <div>
+                        <span>by</span>
+                        <a href="https://github.com/chrnvm" class="link-secondary link-offset-2">chrnvm</a>
+                    </div>
+                </div>
+
+                <a href="#" class="link-danger link-offset-2 logout-link">
+                    <i class="bi bi-box-arrow-left"></i>
+                    <span>Logout</span>
+                </a>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- sidebar end -->
+
+    <!-- main content -->
+    <main class="mt-3 p-2 p-lg-3">
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col">
+                    <div class="fs-2 fw-semibold">Overview</div>
+                    <div class="border-bottom border-1 border-dark-subtle"></div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-lg-4 col-md-12 mb-4">
+                    <div class="card">
+                        <div class="card-header">
+                            Featured
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                            </p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-header">
+                            Featured
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                            </p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-header">
+                            Featured
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                            </p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <!-- main content end-->
+
+    <script src="js/bootstrap.bundle.js"></script>
+
+</body>
+
+</html>
